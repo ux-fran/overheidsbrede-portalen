@@ -911,6 +911,22 @@
           }
         }
       }
+    },
+    "hw": {
+      "color": {
+        "primary": {
+          "200": {
+            "$type": "color",
+            "$value": "#3BAC2A"
+          }
+        },
+        "secundary": {
+          "200": {
+            "$type": "color",
+            "$value": "#4D6EB9"
+          }
+        }
+      }
     }
   },
   "common": {
@@ -1248,7 +1264,7 @@
       "interaction": {
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.700}"
+          "$value": "{hw.color.primary.200}"
         },
         "active": {
           "color": {
